@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 
 public class StephenHawking {
 public static void main(String[] args) {
-for (int i=0;i<10; i++){
+for (int i=0;i<100; i++){
 String sentence=JOptionPane.showInputDialog("Type something for Pink Sheep to say.");
 speak(sentence);
 }
